@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название Вашей Игры</title>
+    <style>
+        /* Основные стили (CSS) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f0f0f;
+            color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #00d4ff;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 30px;
+        }
+
+        /* Стиль кнопки скачивания */
+        .download-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(45deg, #0072ff, #00d4ff);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+        }
+
+        .info {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Название Игры</h1>
+        <p>Добро пожаловать в захватывающий мир моей новой игры. <br> Скачайте прямо сейчас и начните свое приключение!</p>
+        
+        <!-- Замените 'game.zip' на прямую ссылку на вашу игру -->
+        <a href="game.zip" class="download-btn">СКАЧАТЬ ИГРУ</a>
+
+        <div class="info">
+            Версия: 1.0.0 | Платформа: Windows | Размер: 150 МБ
+        </div>
+    </div>
+
+</body>
+</html>
