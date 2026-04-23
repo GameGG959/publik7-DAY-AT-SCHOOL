@@ -3,80 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Название Вашей Игры</title>
+    <title>Скачать 7 Days at School</title>
     <style>
-        /* Основные стили (CSS) */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0f0f0f;
+            background: #0f0f0f;
             color: white;
-            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            margin: 0;
             text-align: center;
         }
-
         .container {
-            max-width: 800px;
-            padding: 20px;
+            max-width: 700px;
+            padding: 2rem;
+            background: rgba(20,25,35,0.9);
+            border-radius: 32px;
+            box-shadow: 0 0 30px rgba(0,200,255,0.2);
         }
-
         h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            color: #00d4ff;
+            font-size: 2.5rem;
+            background: linear-gradient(45deg, #00d4ff, #ff4d4d);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
         }
-
-        p {
-            font-size: 1.2rem;
-            color: #ccc;
-            margin-bottom: 30px;
-        }
-
-        /* Стиль кнопки скачивания */
         .download-btn {
             display: inline-block;
-            padding: 15px 40px;
-            font-size: 1.5rem;
+            background: linear-gradient(45deg, #0066ff, #00ccff);
+            padding: 16px 48px;
+            font-size: 1.6rem;
             font-weight: bold;
-            color: #fff;
-            background: linear-gradient(45deg, #0072ff, #00d4ff);
+            color: white;
             border: none;
-            border-radius: 50px;
-            text-decoration: none;
-            transition: transform 0.2s, box-shadow 0.2s;
+            border-radius: 60px;
             cursor: pointer;
+            margin: 20px 0;
+            transition: 0.2s;
+            text-decoration: none;
         }
-
         .download-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+            transform: scale(1.02);
+            box-shadow: 0 0 25px #00e0ff;
         }
-
-        .info {
-            margin-top: 40px;
-            font-size: 0.9rem;
-            color: #666;
+        .note {
+            font-size: 0.8rem;
+            color: #aaa;
+            margin-top: 20px;
+            border-top: 1px solid #333;
+            padding-top: 15px;
         }
     </style>
 </head>
 <body>
-
-    <div class="container">
-        <h1>Название Игры</h1>
-        <p>Добро пожаловать в захватывающий мир моей новой игры. <br> Скачайте прямо сейчас и начните свое приключение!</p>
-        
-        <!-- Замените 'game.zip' на прямую ссылку на вашу игру -->
-        <a href="game.zip" class="download-btn">СКАЧАТЬ ИГРУ</a>
-
-        <div class="info">
-            Версия: 1.0.0 | Платформа: Windows | Размер: 150 МБ
-        </div>
+<div class="container">
+    <h1>7 DAYS AT SCHOOL</h1>
+    <p>Нажмите кнопку — загрузка начнётся автоматически.</p>
+    
+    <!-- Замените href на полученную прямую ссылку -->
+    <a href="https://disk.yandex.ru/d/0oULKv9tNDdEjw" class="download-btn" download>🎮 СКАЧАТЬ ИГРУ (422 МБ)</a>
+    
+    <div class="note">
+        Если загрузка не началась, попробуйте другой браузер или скопируйте ссылку в адресную строку.
     </div>
-
+</div>
 </body>
 </html>
